@@ -1,0 +1,157 @@
+html {
+font-family: 'Open Sans', sans-serif;
+background-color: beige;
+line-height: 1.5;
+}
+
+h1 {
+font-family: 'Gloria Hallelujah', cursive;
+color: #0039a6;
+line-height: 2;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #0039a6;
+    font-size: 1.5rem;
+    line-height: 2;
+    }
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 2;
+    }
+
+.button {
+    outline: 0;
+    border: 0;
+    padding: 1% 1% 2%;
+    color: #0039a6;
+    border-radius: 2%;
+    font-size: 1rem;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: auto; 
+}
+/* style for Header  */
+.header {
+padding-left: 5%;    
+padding-right: 5%; 
+background-color: #f8f9fa;  
+}
+.headerContainer {
+margin-left: auto;
+margin-right: 5%;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: 2px solid #0039a6;
+}
+/* style for scoreBoard */
+.scoreBoard {
+max-height: 20%;  
+max-width: 15%;
+background-image: url("./images/scoreBoardBackground.png");
+border: 0.2rem solid black;
+}
+.MuiGrid-container {
+margin-top: 5%;
+}
+
+.scoreBoardText {
+font-family: 'Gloria Hallelujah', cursive;
+color: #0039a6;
+}
+
+/* Login page styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+.logInContainer {
+    margin: 10% 10%;
+    text-align: center;
+}
+  
+.logInContainer h1 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+.profileImg {
+    width: 30%;
+}
+input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 50%;
+    border-radius: 2%;
+    padding: 1% 1 2%;
+    margin: 0 auto 10% auto;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    font-weight: 300;
+}
+
+/*central container*/
+.centralContainer {
+    padding: 1rem;
+    margin: 3rem;
+}
+
+/* dicefield */
+.unsavedDie {
+    max-width: 80%;
+    padding: auto;
+    margin:auto;
+
+}
+.savedDie {
+    opacity: 0.5;
+    border: 1% solid #0039a6;
+    max-width: 80%;
+    padding: auto;
+    margin:auto;
+}
+.diceFieldContainer {
+    border: 0.5rem solid black;
+    background-color: #0039a6;
+    border-radius: 2%;
+    padding: 3rem 3rem 3rem 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 80%;
+}
+.rollButton{
+    padding: 3rem 3rem 3rem 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 100%;
+}
+.rollButtonActive {
+    color: #0039a6;
+    border-radius: 2%;
+    font-size: 1rem;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: auto;
+    width: 80%;
+}
+.rollButtonInActive {
+    color: grey;
+    border-radius: 2%;
+    font-size: 1rem;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: auto;
+    width: 80%; 
+}
+
+
+/* footer */
+.footer {
+    margin: 10% auto;
+    padding: 15% 0;
+    text-align: center;
+}
